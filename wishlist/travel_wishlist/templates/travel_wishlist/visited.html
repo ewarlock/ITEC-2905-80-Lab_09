@@ -7,7 +7,10 @@
 
 <ul>
     {% for place in visited %}
-    <li>{{ place.name }}</li>
+    <li>
+        <!-- url 'url' variable=variable also works but is not necessary in latest django-->
+        <a href="{% url 'place_details' place.pk %}">{{ place.name }}</a>
+    </li>
     {% endfor %}
 </ul>
 

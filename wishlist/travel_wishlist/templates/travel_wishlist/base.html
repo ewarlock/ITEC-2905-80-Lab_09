@@ -12,7 +12,7 @@
 
     <body>
         
-        <h2>Travel Wishlist</h2>
+        <h2 id="site-header">Travel Wishlist</h2>
 
         {% block content %}
 
@@ -23,6 +23,9 @@
         </div> 
         <a class="nav-link" href="{% url 'place_list' %}">Your wishlist.</a><br>
         <a class="nav-link" href="{% url 'places_visited' %}">Places you've visited.</a>
+
+        <!--site header attribution-->
+        <a href="https://unsplash.com/photos/62OK9xwVA0c?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Header image by Pawel Nolbert on Unsplash</a>
 
     </body>
 </html>

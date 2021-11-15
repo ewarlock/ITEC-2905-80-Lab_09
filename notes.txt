@@ -1,0 +1,25 @@
+client and server
+requests and responses
+methods
+status codes
+important reading 
+ HTTP response methods
+
+ GET  - fetch resource from server
+ POST  - serverm here is data save data
+ PUT and PATCH and DELETE
+
+
+ django developed as a good way to do things, batteries included bc it comes with a lot of built in libraries
+
+python manage.py createsuperuser
+this makes a super user
+admin
+
+python manage.py makemigrations
+makes migrations. change data in database, needed when changing structure of database
+1 for one off default, user id 1
+
+python manage.py migrate
+
+python manage.py runserver
